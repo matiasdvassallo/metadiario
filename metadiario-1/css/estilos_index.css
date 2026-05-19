@@ -1,0 +1,137 @@
+/*--------------------BORDER-BOX-------------------*/
+* {
+	box-sizing: border-box;
+}
+/*--------------------BORDER-BOX-------------------*/
+
+
+/*--------------------BODY----------------------*/
+#body1 {
+	background-image: url(../img/fondos/fondo1.jpg);
+	background-attachment: fixed;
+}
+/*--------------------BODY----------------------*/
+
+
+/*--------------------HEADER----------------------*/
+header h1 {
+	text-align: center;
+	font-size: 8rem;
+	color: white;
+	vertical-align: top;
+	margin-bottom: 0;
+}
+
+#meta {
+	font-family: "Rubik Pixels", system-ui;
+	font-weight: 400;
+	font-style: normal;
+	background-color: rgb(0, 0, 255, 0.8);
+}
+
+#diario {
+	font-family: "Sorts Mill Goudy", serif;
+	font-weight: bold;
+	font-style: italic;
+	text-decoration: underline rgb(0, 0, 255, 0.7);
+	text-underline-offset: 15px;
+	text-decoration-thickness: 9px;
+}
+
+header ul, header ul a {
+	list-style: none;
+	text-align: center;
+	margin-top: 0 ;
+	text-decoration: none;
+}
+
+#inicio {
+	font-size: 4.5rem;
+}
+
+#inicio span {
+	background-color: rgb(255, 255, 255, 0.82);
+}
+
+#inicio a span:link {
+	color: rgb(0, 0, 255);
+}
+
+#inicio a:visited {
+	color: rgb(0, 0, 255);
+}
+
+#inicio a span:hover {
+	color: white;
+	background-color: rgb(0, 0, 255, 0.8);
+}
+
+#inicio a span:active {
+	background-color: rgb(0, 0, 255);
+	color: rgb(0, 0, 255);
+}
+/*--------------------HEADER----------------------*/
+
+
+/*--------------------NAV----------------------*/
+#nav1 {
+	margin-top: 120px;
+}
+
+#nav1 ul {
+	list-style: none;
+	text-align: center;
+}
+
+.mainLi a {
+	font-size: 2.3rem;
+	text-decoration: none;
+}
+
+.mainLi a {
+	text-decoration: none;
+}
+
+.mainLi {
+	padding: 5px;
+}
+
+.mainLi a:link {
+	color: white;
+	background-color: rgb(0, 0, 255, 0.8);
+}
+
+.mainLi a:hover {
+	background-color: rgb(255, 255, 255, 0.8);
+	color: rgb(0, 0, 255);
+}
+
+.mainLi a:visited {
+	color: white;
+	background-color: rgb(0, 0, 255, 0.8);
+}
+
+.mainLi a:active {
+	background-color: white;
+	color: white;
+}
+/*--------------------NAV----------------------*/
+
+
+/*--------------------FOOTER----------------------*/
+#foot1 {
+	margin-top: 170px;
+}
+
+#kitty1 {
+	display: block;
+	margin-left: 44%;
+	transform: scale(1.2);
+}
+
+#foot1 p {
+	text-align: center;
+	color: white;
+	font-weight: bold;
+}
+/*--------------------FOOTER----------------------*/
