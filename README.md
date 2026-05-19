@@ -1,1 +1,3 @@
-# metadiario
+= Mi MetaDiario =
+
+//practicando código//
