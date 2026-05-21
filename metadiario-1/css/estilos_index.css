@@ -61,7 +61,7 @@ header ul, header ul a {
 	background-repeat: no-repeat;
 }
 
-#inicio a span:link {
+#inicio a:link {
 	color: rgb(0, 0, 255);
 }
 
@@ -69,11 +69,11 @@ header ul, header ul a {
 	color: rgb(0, 0, 255);
 }
 
-#inicio a span:hover {
+#inicio a:hover {
 	color: white;
 }
 
-#inicio a span:active {
+#inicio a:active {
 	color: rgb(0, 0, 255);
 }
 /*--------------------HEADER----------------------*/
@@ -87,7 +87,6 @@ header ul, header ul a {
 
 #nav1 ul {
 	list-style: none;
-	text-align: justify;
 	/*background-color: black;*/
 	background-image: url(../img/tags/index.html/nav1.png);
 	background-size: 400px 253px;
@@ -132,22 +131,3 @@ header ul, header ul a {
 	color: white;
 }
 /*--------------------NAV----------------------*/
-
-
-/*--------------------FOOTER----------------------*/
-#foot1 {
-	margin-top: 150px;
-}
-
-#kitty1 {
-	display: block;
-	margin-left: 44%;
-	transform: scale(1.2);
-}
-
-#foot1 p {
-	text-align: center;
-	color: white;
-	font-weight: bold;
-}
-/*--------------------FOOTER----------------------*/
